@@ -7,6 +7,7 @@
 import React, { Component } from 'react';
 import { Root } from 'native-base';
 import { Provider } from 'react-redux';
+import Store from './Store';
 
 
 export default class App extends Component {

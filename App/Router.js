@@ -1,15 +1,17 @@
 import React from 'react';
 import { StackNavigator } from 'react-navigation';
 
+import Login from './Screens/Login';
+
 const routerOptions = {
-    //initialRouteName: 'Home',
+    initialRouteName: 'Login',
 };
 
 const Router = StackNavigator(
     {
-        //Bluetooth: {
-    //        screen: Bluetooth,
-      //  },
+        Login: {
+            screen: Login,
+        },
     },
     routerOptions
 );
